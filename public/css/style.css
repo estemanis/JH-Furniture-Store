@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #A84CAC;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+nav h3{
+    color: white;
+    font-weight: bold;
+    margin-left: 2vw;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 50vw;
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+footer{
+    background-color: #A84CAC;
+    color: white;
+    bottom: 0;
+    /* position: fixed; */
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.footer-dalem{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.judul{
+    padding-top: 15px;
+}
+
+#copyright{
+    padding-top: 74px;
+}
+
+.isi{
+    font-weight: 100;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.isi p{
+    padding: 5px;
+}
+
+#logo a{
+    padding-top: 15px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+
+}
+
+#login_title, #register_title, .update_title{
+    text-align: center;
+    margin-bottom: 2vh;
+    color: #A84CAC;
+    font-size: 3vw;
+    font-weight: bold;
+    margin-top: 9vh;
+}
+
+form{
+    margin: auto;
+}
+
+.loginbtn, .registerbtn, .updatebtn{
+    width: 10vw;
+    border-radius: 20px;
+    background-color: #A84CAC;
+    
+}
+.card-body{
+    background-color: #A84CAC;
+    color: white;
+    border: none;
+}
+
+.card-footer{
+    background-color: #A84CAC;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1vh;
+    border: none;
+    padding-bottom: 1vh;
+}
+
+.btnitem-1, .btnitem-2, .btnitem-3, .btnitem-4{
+    width: 10vw;
+    border-radius: 20px;
+    background-color: white;
+    color: #A84CAC;
+    font-weight: bold;
+}
+
+.btn-updatebtn{
+    width: 10vw;
+    border-radius: 20px;
+    background-color: #A84CAC;
+    color: white;
+    font-weight: bold;
+}
+
+.loginbtn{
+    margin-bottom: 9vh;
+}
+
+.welcome{
+    color: #A84CAC;
+    text-align: center;
+}
+
+.isi-tengah-update{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+   
+}
+.isi-bawah-update{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.gambar-kiri, .bagian-kanan{
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.button-prev, .button-add{
+    width: 10vw;
+    border-radius: 20px;
+    background-color: #A84CAC;
+    color: white;
+    font-weight: bold;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.btn-update, .btn-delete{
+    width: 6vw;
+}
+
+.btn-update{
+    background-color: #5FE422;
+}
+
+.btn-delete{
+    background-color: #F12E2E;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: end;
+    margin-right: 4.7vw;
+}
+
+.button-search{
+    color: #A84CAC;
+    border-color: #A84CAC; 
+}
+
+.button-search:hover{
+    background-color: #A84CAC;
+    border-color: #A84CAC;
+}
+
+.update-btn{
+    background-color: #5FE422; 
+    border-color: #5FE422;
+}
+
+.previous-btn{
+    background-color: #A748AA;
+    border-color: #A748AA;
+}
+
+.delete-btn{
+    background-color: #F12E2E;
+    border-color: #F12E2E;
+}
+
+.cart-btn{
+    background-color: #A748AA;
+    border-color: #A748AA;
+}
+
+.isi-cart{
+    width: 100%;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.bungkus-transaksi{
+    border: 1px solid #A748AA;
+    padding: 3vw;
+    box-shadow: 4px 6px #888888;
+}
+
+.isi-transaksi > thead > tr > th{
+    border:1px solid #A748AA ;
+}
+.isi-transaksi > tbody > tr > th{
+    border:1px solid #A748AA ;
+}
+.isi-transaksi > tbody > tr > td{
+    border:1px solid #A748AA ;
+}
+
+.total{
+    text-align: center;
+    /* margin: auto; */
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+}
+
+.button-checkout{
+    background-color: #A84CAC;
+    border-radius: 30px;
+}
+
+.button-min{
+    background-color: #A84CAC;
+    padding-left: 2vw;
+    padding-right: 2vw; 
+    margin-right: 1vw;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.button-plus{
+    background-color: #A84CAC;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.information{
+    text-align: center;
+}
+
+.detail{
+    color: #A84CAC;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.detail-info{
+    width: 12vw;
+    text-align: right;
+}
+
+.home-img>a>img,.view-img>a>img {
+    display: block;
+    max-width:100%;
+    max-height: 100%;
+    width:400px;
+    height: 300px;
+    
+}
+
+.detail-furniture-img > img{
+    display: block;
+    max-width:100%;
+    max-height: 100%;
+    width:300px;
+    height: 200px;
+}
+
+.tabel-history{
+    margin-bottom: 2vw;
+}
+
+.nomor-kartu{
+    display: flex;
+   
+}
